@@ -1,0 +1,15 @@
+/* Moved MainLayout CSS contents to Sidebar.css or separate file? I used Sidebar.css above for both. Check import. */
+/* Ah, I imported MainLayout.css in MainLayout.jsx. I need to create that file or put the styles somewhere. */
+/* I will put MainLayout specific styles here. */
+.layout-container {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    background-color: var(--bg-light);
+}
+
+.main-content {
+    flex: 1;
+    overflow-y: auto;
+    padding: 32px 40px;
+}
